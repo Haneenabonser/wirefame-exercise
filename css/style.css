@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    position: relative;
+    height: 100px;
+    background-color: rgb(68, 67, 67);
+}
+
+header nav{
+    position: absolute;
+    left: 30%;
+    top: 15%;
+    /* padding-bottom: 80px; */
+  
+  
+}
+header div nav ul li{
+    display: inline-block;
+    color: rgb(179, 171, 171);
+    padding: 30px;
+    font-weight: bold;
+    /* vertical-align: middle; */
+}
+
+header div img{
+    position: absolute;
+    left: 15%;
+    top: 14%;
+}
+
+#hero {
+    text-align: center;
+    margin-top: 25px;
+    
+}
+main{
+    display: block;
+}
+#second{
+    text-align: center;
+    margin-top: 20px;
+}
+.middle{
+    display: inline-block;
+    padding: 13px;
+}
+
+.text{
+    width: 33%;
+    float: right;
+    text-align: justify;
+    /* padding-left: 35%;
+    padding-right: 35%; */
+    position: relative;
+    overflow: scroll;
+    right: 15%;
+    padding-left: 20px;
+    height: 360px;
+}
+#last{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+#last div img{
+    float: left;
+    padding-left: 14.4%;
+    position: relative;
+}
+
+#last button{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 24px;
+    position:relative;
+    margin-top: 360px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+#last button:hover{
+    background-color:  rgb(167, 80, 207);
+}
+
+footer{
+    clear: both;
+    background-color: rgb(68, 67, 67);
+    height: 100px;
+
+}
